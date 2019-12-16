@@ -256,3 +256,27 @@ h1{
 	margin-left: 5px;
 	text-decoration: none;
 }
+
+@media only screen and (max-width: 767px){
+	.price{
+		width: 500px;
+		margin-left: 45px;
+		margin-bottom: 30px;
+	}
+	.form{
+		background-size: 300px 1000px;
+		background-image: linear-gradient(to bottom,#00664c,#22b28e);
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	.wrap{
+		width:32px;
+	}
+
+	.price{
+		width: 300px;
+		margin-left: 25px;
+		margin-bottom: 10px;
+	}
+}
